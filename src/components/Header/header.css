@@ -1,0 +1,225 @@
+.headerContainer {
+    width: 100%;
+}
+
+.headerContainerWrap {
+    background: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px 15px 20px;
+    flex-wrap: wrap;
+}
+
+
+.hamburgerContainer {
+    display: flex;
+    align-items: center;
+}
+
+.headerContainerInputWrap {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburgerWrap {
+    cursor: pointer;
+}
+
+.line1 {
+    height: 2.9px;
+    background: black;
+    width: 22px;
+    border-radius: 10%;
+}
+
+.line2 {
+    height: 3px;
+    background: #0079BA;
+    width: 25px;
+    margin: 4px 0;
+    border-radius: 10%;
+}
+
+.line3 {
+    height: 2.8px;
+    background: black;
+    width: 27px;
+    border-radius: 10%;
+}
+
+.hamburgerLogo {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.imgWrap {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0 27px;
+}
+
+.imgWrap img {
+    width: 130px;
+    object-fit: contain;
+}
+
+.inputWrap {
+    position: relative;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 0px;
+}
+
+.inputWrap input {
+    width: 100%;
+    padding: 10px 10px 10px 38px;
+    border-radius: 4px;
+    border: none;
+    background: #F4F4F4;
+    border-right: 4px solid #0079BA;
+}
+
+.inputWrap input:focus-visible {
+    outline: 2px solid #0079BA;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 20%;
+    /* left: 2%; */
+    padding-left: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* background: white; */
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.iconContentWrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-right: 10px; */
+    padding-left: 10px;
+}
+
+.iconForTab {
+    display: none;
+}
+
+.iconWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconWrap svg {
+
+    font-size: 24px;
+}
+
+.iconContentWrap p {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:1206px) {
+    .headerContainerInputWrap {
+        width: 68%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .inputWrap {
+        width: 50%;
+        padding: 0 10px 0 20px;
+    }
+
+    .imgWrap {
+        padding: 0px 25px 0 30px;
+    }
+    .imgWrap img {
+        width: 120px;
+    }
+
+    .iconContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 42%;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .headerContainerWrap {
+        justify-content: flex-start;
+        padding: 15px 15px 15px 15px;
+        flex-wrap: wrap;
+    }
+
+    .headerContainerInputWrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+
+    .hamburgerContainer {
+        position: relative;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .inputWrap {
+        width: 100%;
+        padding: 0 0px 0 0px;
+    }
+
+    .iconContentWrap {
+        display: none;
+
+    }
+
+    .iconContainer {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: 2.5%;
+        padding-right: 15px;
+    }
+
+    .iconForTab {
+        display: block;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 15px;
+    }
+
+    .iconForTab svg {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .hamburgerLogo {
+        display: none;
+    }
+
+    .imgWrap {
+        padding: 0px 0px 0 20px;
+    }
+    .imgWrap img {
+        width: 110px;
+    }
+}
