@@ -13,9 +13,9 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={CompanyDetails} />
-          <Route path="/billingAddress" component={BillingAddress} />
-          <Route path="/shippingDetails" component={ShippingAdress} />
-          <Route path="/uploadDocuments" component={UploadDocuments} />
+          <Route path="/billing" component={BillingAddress} />
+          <Route path="/shipping" component={ShippingAdress} />
+          <Route path="/upload" component={UploadDocuments} />
         </Switch>
       </Router>
     </>
