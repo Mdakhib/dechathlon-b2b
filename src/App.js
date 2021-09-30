@@ -10,8 +10,8 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="/" component={BillingAddress} />
-          <Route path="/companyDetails" component={CompanyDetails} />
+          <Route exact path="/" component={CompanyDetails} />
+          <Route path="/billingAddress" component={BillingAddress} />
           <Route path="/shippingDetails" component={ShippingAdress} />
           <Route path="/uploadDocuments" component={UploadDocuments} />
         </Switch>
