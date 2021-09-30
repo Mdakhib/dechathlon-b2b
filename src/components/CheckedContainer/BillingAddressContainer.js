@@ -1,4 +1,4 @@
-import { CheckCircleOutline } from '@material-ui/icons';
+import { CheckCircleOutline, RadioButtonUncheckedOutlined } from '@material-ui/icons';
 import React from 'react';
 import './checkedContainer.css';
 
@@ -9,10 +9,10 @@ const CompanyDetails = () => {
                 <div className="containerWrapper">
                     <div className="content">
                         <div className="text">
-                            <p>Contact details</p>
+                            <p>Contact Details</p>
                         </div>
                         <div className="icon">
-                            <CheckCircleOutline />
+                            <RadioButtonUncheckedOutlined />
                         </div>
                         <div className="lines">
                             --------------------
@@ -34,7 +34,7 @@ const CompanyDetails = () => {
                             <p>Shipping Address</p>
                         </div>
                         <div className="icon">
-                            <CheckCircleOutline />
+                            <RadioButtonUncheckedOutlined/>
                         </div>
                         <div className="lines">
                             ---------------------
@@ -45,7 +45,7 @@ const CompanyDetails = () => {
                             <p>Upload Documents</p>
                         </div>
                         <div className="icon">
-                            <CheckCircleOutline />
+                            <RadioButtonUncheckedOutlined/>
                         </div>
                     </div>
                 </div>

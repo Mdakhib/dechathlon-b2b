@@ -6,7 +6,7 @@
 
 .container{
     width: 100%;
-    height: 60px;
+    height: 70px;
     padding: 25px 240px ;
     background-color: #efefef;
 }
@@ -21,32 +21,41 @@
 
 .content{
     display: flex;
-    font-size: 11px;
+    font-size: 11px;  /*if you want to change font size, do here*/
     
 }
 
 .texts{
     color: #3dbd8c;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 
 .text{
     color: #bbbdde;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 
 .icon svg{
-    font-size: 20px;
+    font-size: 20px;   /*if you want to change icon size, change here*/
     color: #bbbdde;
-    padding-left: 5px;
-    
+    padding-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .icons svg{
-    font-size: 22px;
+    font-size: 20px;
     color: #3dbd8c;
-    padding-left: 5px;
-    
-    
+    padding-left: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
 .lines{
@@ -54,7 +63,10 @@
     padding-left:30px ;
     color: #bbbdde;
     font-size:10px;
-    opacity: 0.2;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -63,6 +75,7 @@
   .container {
      padding:10px 50px ;
      align-items: center;
+     font-size: 8px;
       
   }
 
