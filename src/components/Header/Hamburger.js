@@ -1,0 +1,27 @@
+import React from "react";
+import logo from "../../images/logo-93d12d8cff484ab736d2a39f15bf66d8.svg";
+import "./header.css";
+
+const Hamburger = () => {
+  return (
+    <>
+      <div className="hamburgerContainer">
+        <div className="hamburgerWrap">
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+        <p className="hamburgerLogo">
+          ALL
+          <br />
+          SPORTS
+        </p>
+        <div className="imgWrap">
+          <img src={logo} alt="" />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Hamburger;
