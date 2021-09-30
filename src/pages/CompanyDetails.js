@@ -1,12 +1,13 @@
 import React from 'react';
-import CompanyDetailContainer from '../components/CheckedContainer/CompanyDetailContainer';
+import CompanyDetailContainer  from "../components/CheckedContainer/CompanyDetailContainer";
 
 const CompanyDetails = () => {
-    return (
-        <>
-           <CompanyDetailContainer/>
-        </>
-    );
+  return (
+    <>
+          <CompanyDetailContainer />
+          
+    </>
+  );
 };
 
 export default CompanyDetails;

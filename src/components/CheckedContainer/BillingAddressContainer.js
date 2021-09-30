@@ -4,55 +4,45 @@ import './checkedContainer.css';
 
 const CompanyDetails = () => {
     return (
-        <>
-            <div className="container">
-                <div className="containerWrapper">
-                    <div className="content">
-                        <div className="text">
-                            <p>Contact Details</p>
-                        </div>
-                        <div className="icon">
-                            <RadioButtonUncheckedOutlined />
-                        </div>
-                        <div className="lines">
-                            --------------------
-                        </div>
-                    </div>
-                    <div className="content">
-                        <div className="texts">
-                            <p>Billing Address</p>
-                        </div>
-                        <div className="icons">
-                            <CheckCircleOutline />
-                        </div>
-                        <div className="lines">
-                            ---------------------
-                        </div>
-                    </div>
-                    <div className="content">
-                        <div className="text">
-                            <p>Shipping Address</p>
-                        </div>
-                        <div className="icon">
-                            <RadioButtonUncheckedOutlined/>
-                        </div>
-                        <div className="lines">
-                            ---------------------
-                        </div>
-                    </div>
-                    <div className="content">
-                        <div className="text">
-                            <p>Upload Documents</p>
-                        </div>
-                        <div className="icon">
-                            <RadioButtonUncheckedOutlined/>
-                        </div>
-                    </div>
-                </div>
-
-
+      <>
+        <div className="deatilContainer">
+          <div className="detailWrapper">
+            <div className="detailContentWrap">
+              <p className=" detailTitle">Contact Details</p>
+              <div className="iconWrap">
+                <CheckCircleOutline className="detailcheckedIcon detailIcon" />
+              </div>
             </div>
-        </>
+            <div className="detailLine">
+              <p>- - - - </p>
+            </div>
+            <div className="detailContentWrap">
+              <p className="detailchecked detailTitle">Billing Address</p>
+              <div className="iconWrap">
+                <CheckCircleOutline className="detailcheckedIcon detailIcon" />
+              </div>
+            </div>
+            <div className="detailLine">
+              <p>- - - - </p>
+            </div>
+            <div className="detailContentWrap">
+              <p className=" detailTitle">Shipping Address</p>
+              <div className="iconWrap">
+                <RadioButtonUncheckedOutlined className=" detailIcon" />
+              </div>
+            </div>
+            <div className="detailLine">
+              <p>- - - - </p>
+            </div>
+            <div className="detailContentWrap">
+              <p className=" detailTitle">Upload Documents</p>
+              <div className="iconWrap">
+                <RadioButtonUncheckedOutlined className=" detailIcon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
     );
 };
 
