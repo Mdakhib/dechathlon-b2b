@@ -16,7 +16,7 @@ const BillingCardDetails = () => {
               </label>
             </div>
           </div>
-          <div class="floatingLabelGroup">
+          {/* <div class="floatingLabelGroup">
             <div className="floatingLabelWrap">
               <input type="text" autocomplete="off" autofocus required />
               <label class="floatingLabel">Address</label>
@@ -65,7 +65,7 @@ const BillingCardDetails = () => {
               <input type="text" autocomplete="off" autofocus required />
               <label class="floatingLabel">Land Phone</label>
             </div>
-          </div>
+          </div> */}
           <div className="cardBtnWrap">
             <Link to="/shipping">
               <button type="submit">move to shipping address</button>

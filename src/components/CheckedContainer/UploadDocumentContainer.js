@@ -1,4 +1,4 @@
-import { CheckCircleOutline, RadioButtonUncheckedOutlined } from '@material-ui/icons';
+import { CheckCircleOutline } from '@material-ui/icons';
 import React from 'react';
 import './checkedContainer.css';
 

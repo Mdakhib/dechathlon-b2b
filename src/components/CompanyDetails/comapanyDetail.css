@@ -26,8 +26,8 @@
 
 .floatingLabelGroup {
     position: relative;
-    /* width: 320px; */
-    width: 100%;
+    width: 320px;
+    /* width: 100%; */
 }
 
 .floatingLabelGroup input {
@@ -211,7 +211,8 @@
     }
 
     .floatingLabelGroup {
-        width: 100%;
+    /* width: 320px; */
+        width: 100% !important;
     }
 
     .cardInputContainer {
