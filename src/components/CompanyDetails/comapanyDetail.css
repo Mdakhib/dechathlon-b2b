@@ -90,6 +90,7 @@
 }
 
 .gstWrap p {
+    font-weight: 700;
     font-size: 12px;
     padding-right: 18px;
 }
@@ -134,6 +135,72 @@
     padding: 15px 20px;
 }
 
+.cardUploadInputContainer{
+    padding: 40px 20px 40px 20px;
+
+}
+
+
+.cardUploadHeader {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+
+.uploadContent {
+    font-weight: 700;
+    font-size: 14px;
+    max-width: 400px;
+}
+
+
+
+.uploadInput {
+    border: 1px solid #158DC8;
+    padding: 6px 35px;
+    color: #158DC8;
+    background: none;
+    margin: 10px 0 25px 0;
+}
+
+.uploadFormat {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.termsConditionWrap {
+    display: flex;
+    padding: 15px 0px 15px;
+    align-items: center;
+}
+
+.termsConditionWrap p {
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 14px;
+}
+
+.termsConditionWrap input {
+    width: 22px;
+    height: 22px;
+}
+
+.cardSubmitBtnWrap {
+    width: 60%;
+    padding: 25px 0 0 0;
+}
+
+.cardSubmitBtnWrap button {
+    width: 100%;
+    text-transform: uppercase;
+    background: #158DC8;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 15px 20px;
+}
+
 @media screen and (max-width:768px) {
     .companyDetailContainer {
         justify-content: center;
@@ -144,6 +211,16 @@
     }
 
     .cardInputContainer {
+        padding: 40px 15px 40px 15px;
+
+    }
+
+    .cardSubmitBtnWrap {
+        width: 100%;
+        padding: 25px 0 0 0;
+    }
+
+    .cardUploadInputContainer {
         padding: 40px 15px 40px 15px;
 
     }
@@ -165,5 +242,10 @@
 
     .cardBtnWrap {
         padding: 20px 0 0 0;
+    }
+
+    .termsConditionWrap p {
+        font-size: 16px;
+        padding-right: 10px;
     }
 }
