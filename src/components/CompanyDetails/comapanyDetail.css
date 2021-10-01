@@ -135,6 +135,10 @@
     padding: 15px 20px;
 }
 
+
+.gstWrap h6{
+    padding-right: 5px;
+}
 .cardUploadInputContainer{
     padding: 40px 20px 40px 20px;
 
