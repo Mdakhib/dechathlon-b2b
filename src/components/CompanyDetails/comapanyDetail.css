@@ -134,6 +134,10 @@
     padding: 15px 20px;
 }
 
+.gstWrap h6{
+    padding-right: 5px;
+}
+
 @media screen and (max-width:768px) {
     .companyDetailContainer {
         justify-content: center;
