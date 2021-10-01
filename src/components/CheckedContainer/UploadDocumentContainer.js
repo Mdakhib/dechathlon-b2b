@@ -8,7 +8,7 @@ const CompanyDetails = () => {
         <div className="deatilContainer">
           <div className="detailWrapper">
             <div className="detailContentWrap">
-              <p className="detailchecked detailTitle">Contact Details</p>
+              <p className=" detailTitle">Contact Details</p>
               <div className="iconWrap">
                 <CheckCircleOutline className="detailcheckedIcon detailIcon" />
               </div>

@@ -7,7 +7,7 @@ const ShippingCardDetails = () => {
         <>
             <div className="cardInputContainer">
                 <h1>Shipping Address</h1>
-                <div className="gstWrap">
+                <div className="billingWrap">
                     <h6>Same as Billing Address</h6>
                     <input type="checkbox" />
                 </div>

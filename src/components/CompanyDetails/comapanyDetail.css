@@ -2,11 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: 1px solid black;
     width: 100%;
     align-items: center;
     max-width: 1200px;
-    border: 1px solid black;
     margin: auto;
 }
 
@@ -28,6 +26,7 @@
     position: relative;
     width: 320px;
     /* width: 100%; */
+    /* max-width: 400px; */
 }
 
 .floatingLabelGroup input {
@@ -136,8 +135,15 @@
 }
 
 
-.gstWrap h6{
+.billingWrap{
+    display: flex;
+    padding: 15px 0px 0px;
+    align-items: center;
+}
+
+.billingWrap h6 {
     padding-right: 5px;
+    font-size: 14px;
 }
 .cardUploadInputContainer{
     padding: 40px 20px 40px 20px;
@@ -211,8 +217,8 @@
     }
 
     .floatingLabelGroup {
-    /* width: 320px; */
-        width: 100% !important;
+    width: 320px;
+    /* width: 100% !important; */
     }
 
     .cardInputContainer {
@@ -231,9 +237,15 @@
     }
 }
 
+/* @media screen and (max-width:520px){
+    .companyDetailContainer {
+        display: block;
+    }
+} */
+
 @media screen and (max-width:480px) {
     .floatingLabelWrap {
-        padding: 20px 0 0 0;
+        /* padding: 20px 0 0 0; */
     }
 
     .downloadWrap p {
@@ -252,5 +264,15 @@
     .termsConditionWrap p {
         font-size: 16px;
         padding-right: 10px;
+    }
+}
+@media screen and (max-width:355px) {
+    .cardInputContainer {
+        padding: 40px 10px 40px 10px;
+
+    }
+
+    .floatingLabelGroup {
+        width: 280px;
     }
 }
