@@ -47,7 +47,6 @@
 
 @media screen and (max-width:768px) {
     .deatilContainer {
-        border: 1px solid red;
         width: 100%;
         padding: 20px 15px;
     }
@@ -67,7 +66,6 @@
 
 @media screen and (max-width:480px) {
     .deatilContainer {
-        border: 1px solid red;
         width: 100%;
         padding: 15px 10px;
     }
