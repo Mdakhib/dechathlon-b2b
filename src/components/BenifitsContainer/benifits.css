@@ -1,0 +1,54 @@
+.benifitsCardContainer {}
+
+.benifirCardWrap {
+    background: #efefef;
+    width: 400px;
+    padding: 80px 20px 80px 20px;
+
+
+}
+
+.benefitHeader {
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.benefitHeader span {
+    font-weight: 700;
+}
+
+.benefitCardIconContainer {
+    display: flex;
+
+}
+
+.benefitCardIconWrap {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    margin-right: 5px;
+    border-radius: 10px;
+
+}
+
+.benefitCardIconWrap svg {
+    margin-bottom: 5px;
+}
+
+.cardContent1 {
+    font-size: 10px;
+}
+
+.cardContent2 {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    .benifitsCardContainer {
+        display: none;
+    }
+}
