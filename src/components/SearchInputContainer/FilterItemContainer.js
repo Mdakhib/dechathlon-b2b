@@ -1,9 +1,8 @@
 import React from "react";
 import "./filterItem.css";
-import { sportsFilter } from "../../assets/data/filterData";
+import { colorFilter, sportsFilter } from "../../assets/data/filterData";
 import { manufatureFilter } from "../../assets/data/filterData";
 import { natureFilter } from "../../assets/data/filterData";
-import { colorFilter } from "../../assets/data/filterData";
 
 const FilterItemContainer = () => {
   return (
@@ -76,7 +75,7 @@ const FilterItemContainer = () => {
       <div className="scrollingFilterRangeContainer">
         <p className="filterRangeHeader">Color</p>
         <div className="scrollingFilterContentContainer">
-          {natureFilter.map((item) => {
+          {colorFilter.map((item) => {
             const { id, bg } = item;
             return (
               <div
@@ -85,7 +84,7 @@ const FilterItemContainer = () => {
                 className="scrollingFilterContentWrap"
               >
                 <input type="checkbox" />
-                <div style={{ background: `${bg}`, width: '10px', height: '10px' }}></div>
+                <div style={{ background: `${bg}`, width: '15px', height: '15px',marginLeft:'12px' }}></div>
               </div>
             );
           })}

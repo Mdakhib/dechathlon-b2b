@@ -3,6 +3,7 @@ import {
   KeyboardArrowDownOutlined,
 } from "@material-ui/icons";
 import React from "react";
+import ProductCard from "./ProductCard";
 
 const ProductsContainer = () => {
   return (
@@ -29,7 +30,9 @@ const ProductsContainer = () => {
           </div>
         </div>
       </div>
-      <div className="productItemContainer"></div>
+      <div className="productItemContainer">
+        <ProductCard />
+      </div>
     </div>
   );
 };
