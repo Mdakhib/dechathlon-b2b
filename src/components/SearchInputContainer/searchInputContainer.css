@@ -1,0 +1,130 @@
+.searchInputContainer {
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+}
+
+.filterContainer {
+    width: 100%;
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filterItemContainer {
+    padding: 15px;
+    border: 1px solid #EAEAEA;
+}
+
+.filterHeaderContainer {
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 21px;
+}
+
+.filterHeaderContainer p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.filterHeaderContainer svg {
+    font-size: 22px;
+    margin-left: 8px;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.productItemContainer {
+    padding: 30px 10px;
+    border-top: 1px solid #EAEAEA;
+}
+
+.productHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productHeaderContainer {
+    padding: 5px 0px 15px;
+}
+
+.productHeaderContentWrap1 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.productHeaderContentWrap1 p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.productHeaderContentWrap2 p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.productHeaderContentWrap2 {
+    display: flex;
+    align-items: center;
+}
+
+.productContent1 {
+    display: flex;
+    align-items: center;
+    padding: 2px 4px;
+    margin-right: 40px;
+}
+
+.productContent1:hover {
+    background: #F7F7F7;
+}
+
+.productContent1 svg {
+    font-size: 22px;
+    margin-left: 2px;
+}
+
+.productContent2 {
+    display: flex;
+    align-items: center;
+    padding: 2px 4px;
+}
+
+.productContent2:hover {
+    background: #F7F7F7;
+}
+
+.productContent2 svg {
+    font-size: 22px;
+    margin-left: 2px;
+}
+
+.productContent3 {
+    display: flex;
+    align-items: center;
+    padding: 2px 4px;
+}
+
+.productContent3 svg {
+    font-size: 22px;
+    margin-right: 6px;
+}
+
+.productContent4 {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    margin-left: 20px;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+
+.productContent4 svg {
+    font-size: 22px;
+}

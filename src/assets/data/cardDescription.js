@@ -11,7 +11,7 @@ import Bag10 from "../images/bag10.jpg";
 
 
 
-const cardDescription = [
+export const cardDescription = [
     {
         id: 1,
         img: Bag1,
@@ -104,5 +104,4 @@ const cardDescription = [
     },
 ];
 
-export default cardDescription;
 

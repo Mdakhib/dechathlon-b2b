@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo-93d12d8cff484ab736d2a39f15bf66d8.svg";
 import "./header.css";
 
@@ -16,9 +17,11 @@ const Hamburger = () => {
           <br />
           SPORTS
         </p>
-        <div className="imgWrap">
-          <img src={logo} alt="" />
-        </div>
+        <Link to="/">
+          <div className="imgWrap">
+            <img src={logo} alt="" />
+          </div>
+        </Link>
       </div>
     </>
   );
