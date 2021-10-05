@@ -253,6 +253,42 @@ export const natureFilter = [
 export const colorFilter = [
   {
     id: 1,
-    bg: 'red'
+    bg: "#000000",
+  },
+  {
+    id: 2,
+    bg: "#091111",
+  },
+  {
+    id: 3,
+    bg: "#2C2D3C",
+  },
+  {
+    id: 4,
+    bg: "#194146",
+  },
+  {
+    id: 5,
+    bg: "#474833",
+  },
+  {
+    id: 6,
+    bg: "#545452",
+  },
+  {
+    id: 7,
+    bg: "#0070B1",
+  },
+  {
+    id: 8,
+    bg: "#1D2D52",
+  },
+  {
+    id: 9,
+    bg: "#77272D",
+  },
+  {
+    id: 10,
+    bg: "#D1572F",
   },
 ];
