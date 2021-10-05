@@ -1,0 +1,72 @@
+.priceRangeContainer {
+    padding: 10px 0 15px;
+}
+
+.filterRangeHeader {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.priceInput {
+    width: 100%;
+    padding: 10px 0 8px;
+}
+
+.priceInput input {
+    width: 100%;
+}
+
+.rangeValue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rangeNumber {
+    background: #EAEAEA;
+    padding: 5px 8px;
+}
+
+.scrollingFilterRangeContainer {
+    padding: 10px 0 15px;
+}
+
+.scrollingFilterContentContainer {
+    height: 150px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin: 15px 0;
+}
+
+.scrollingFilterContentContainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #EDEDED;
+    border-radius: 10px;
+    background-color: #EDEDED;
+}
+
+.scrollingFilterContentContainer::-webkit-scrollbar {
+    width: 6px;
+    background-color: #EDEDED;
+}
+
+.scrollingFilterContentContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px #8f8c8c;
+    background-color: #8f8c8c;
+}
+
+
+.scrollingFilterContentWrap {
+    display: flex;
+    align-items: center;
+    padding: 0 0 8px;
+}
+
+.scrollingFilterContentWrap input {
+    width: 15px;
+    height: 15px;
+}
+
+.scrollingFilterContentWrap p {
+    padding-left: 12px;
+}

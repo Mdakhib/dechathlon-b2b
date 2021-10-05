@@ -3,6 +3,7 @@ import Hamburger from "./Hamburger";
 import "./header.css";
 import { SearchOutlined } from "@material-ui/icons";
 import HeaderIconContent from "./HeaderIconContent";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -17,7 +18,9 @@ const Header = () => {
                 placeholder="Search 70 sports and 5000 products"
               />
               <div className="searchIcon">
-                <SearchOutlined />
+                <Link to="/search">
+                  <SearchOutlined />
+                </Link>
               </div>
             </div>
             <HeaderIconContent />
